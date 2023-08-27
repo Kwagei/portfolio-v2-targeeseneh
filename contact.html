@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolo-v-2-contact-page</title>
+
+	<style type="text/css">
+		
+		header{
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+	padding: 20px;
+	
+}
+
+h1{
+	font-size: 45px;
+	margin-top: 30px;
+}
+
+ul{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+
+li{
+
+	padding: 25px;
+	list-style: none;
+
+}
+
+a{
+
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+
+}
+
+a:hover{
+	color: orangered;
+}
+
+
+#profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 55vh; 
+  background-color: black;
+}
+
+#text {
+
+  padding: 20px;
+}
+
+#text h1 {
+  color: orangered;
+  margin: 10px 0;
+}
+
+.project{
+	margin: 30px;
+	padding: 30px;
+}
+
+.project h1{
+	text-align: center;
+	margin-top: 40px;
+}
+
+.project h3{
+	text-align: center;
+	
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+
+}
+#male{
+	margin-bottom: 10px;
+
+}
+
+#female{
+	margin-bottom: 10px;
+}
+
+.first {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 30px;
+    width: 600px;
+    height: 500px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="radio"],
+select,
+textarea {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 80px;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+form {
+	margin-top: 80px;
+    margin-bottom: 0;
+}
+
+.name{
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+}
+
+.county{
+	display: flex;
+	justify-content: space-between;
+}
+
+.label{
+
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.footer{
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+	padding: 20px;
+	background-color: black;
+}
+.footer h2{
+	color: white;
+	margin-top: 30px;
+	margin-left: 30px;
+	padding-top: 20px;
+}
+
+.footer 
+ul{
+	display: flex;
+	justify-content: space-between;
+		
+}
+
+.footer img{
+	border-radius: 5px;
+	width: 38px;
+
+}
+
+.second{
+	display: flex;
+	justify-content: space-evenly;
+	
+}
+
+
+.subject{
+	flex: flex-start;
+}
+
+.select{
+	display: flex;
+	justify-content: ;
+}
+
+</style>
+</head>
+<body>
+	<header>
+		<h1>CODE-WITH-TS</h1>
+		<nav>
+			<ul>
+				<li> <a href="index.html">Home</a></li>
+				<li> <a href="portfolio.html">Portfolio</a></li>
+				<li> <a href="blog.html">Blog</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div id="profile">
+		<div id="text">
+			<h1>Contact Me</h1>
+		</div>
+	</div>
+
+	</section>
+
+<div class="project">
+	<h1>Get conneted with me on social media</h1>
+	<h3>Active 24 hours for all deals and business </h3>
+    <div id="cards">
+        <section class="first">
+            <form>
+            	<div class="second">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email">
+                </div>
+
+                </div>
+
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject">
+                </div>
+
+                <div class="county">
+                <div class="form-group">
+                    <label>Gender:</label>
+                    <div class="label">
+                    <label for="male">Male</label>
+                    <input type="radio" id="male">
+                    <label for="female">Female</label>
+                    <input type="radio" id="female">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="county">County</label>
+                    <select id="county">
+                        <option>select county</option>
+                <option>Bomi County</option>
+                <option>Bong County</option>
+                <option>Maryland County</option>
+                <option>Sinoe County</option>
+                <option>Margibi County</option>
+                <option>Nimba County</option>
+                <option>Grand Kru County</option>
+                <option>Rivercess County</option>
+                <option>River Gee County</option>
+                <option>Rivercess County</option>
+                <option>Gbarpolu County</option>
+                <option>Lofa County</option>
+                <option>Grand Gedeh County</option>
+                <option>Grand Capemount County</option>
+                <option>Grand Bassa County</option>
+             </select>
+                    </select>
+                </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message"></textarea>
+                </div>
+
+                <button>Submit</button>
+            </form>
+        </section>
+    </div>
+</div>
+
+
+<footer class="footer">
+		<h2>Get connected with me on social media</h2>
+		<nav>
+			<ul>
+				<li> <img src="facebook.png"></li>
+				<li> <img src="whatsapp.png"></li>
+				<li> <img src="twitter.png"></li>
+				<li> <img src="github.jpeg"></li>
+				<li> <img src="tiktok.png"></li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>

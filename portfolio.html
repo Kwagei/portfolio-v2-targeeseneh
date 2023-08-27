@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio-v-2-portfolio-page</title>
+
+	<style type="text/css">
+		
+		header{
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+	padding: 20px;
+	
+}
+
+h1{
+	font-size: 45px;
+	margin-top: 30px;
+}
+
+ul{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+
+li{
+
+	padding: 25px;
+	list-style: none;
+
+}
+
+a{
+
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+
+}
+
+a:hover{
+	color: orangered;
+}
+
+
+#profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 55vh; 
+  background-color: black;
+}
+
+#text {
+
+  padding: 20px;
+}
+
+#text h1 {
+  color: orangered;
+  margin: 10px 0;
+}
+
+
+.project {
+    text-align: center;
+}
+
+.project h1 {
+    margin-bottom: 20px;
+}
+
+.project button{
+	background-color: black;
+	border-radius: 10px;
+}
+
+
+.project button a{
+	color: white;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.first {
+	background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.first .content {
+    padding: 10px;
+    text-align: center;
+}
+
+
+.first img {
+	width: 500px;
+	height: 300px;
+   
+}
+.first a{
+	color: blue;
+}
+
+
+.footer{
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+	padding: 20px;
+	background-color: black;
+}
+.footer h2{
+	color: white;
+	margin-top: 30px;
+	margin-left: 30px;
+	padding-top: 20px;
+}
+
+.footer 
+ul{
+	display: flex;
+	justify-content: space-between;
+		
+}
+
+.footer img{
+	border-radius: 5px;
+	width: 38px;
+}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>CODE-WITH-TS</h1>
+		<nav>
+			<ul>
+				<li> <a href="index.html">Home</a></li>
+				<li> <a href="blog.html">Blog</a></li>
+				<li> <a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div id="profile">
+		<div id="text">
+			<h1>My Portfolio</h1>
+		</div>
+	</div>
+	<div class="project">
+		<h1>Latest Project</h1>
+
+		<div id="cards">
+
+		<section class="first">
+			<img src="dom.png">
+			<h1>DOM Manipulation</h1>
+			<p>
+				DOM is an acronym that stands for Document Object Model. It’s how a web browser represents a web page internally. <br> <a href="https://targeeseneh.github.io/dom-manipulation/">Read More</a>
+			</p>
+		</section>
+
+		<section class="first">
+			<img src="flexbox.png">
+			<h1>FlexBox</h1>
+			<p>
+				The Flexible Box Layout Model (flexbox) is a layout model designed for one-dimensional content.  <br> <a href="https://targeeseneh.github.io/Layout/">Read More</a>
+			</p>
+		</section>
+
+
+		<section class="first">
+			<img src="counter.png">
+			<h1>Counter App</h1>
+			<p>
+				A simple counter app that add and subtract. It's build with HTML, CSS & JavaScript <br> <a href=" targeeseneh.github.io/counter/ ">Read More</a>
+			</p>
+		</section>
+	</div>
+
+	<div class="project">
+		
+
+		<div id="cards">
+
+		<section class="first">
+			<img src="md.png">
+			<h1>Markdown</h1>
+			<p>
+				DOM is an acronym that stands for Document Object Model. It’s how a web browser represents a web page internally. <br> <a href="https://targeeseneh.github.io/week-0-js-assignment-1/">Read More</a>
+			</p>
+		</section>
+
+		<section class="first">
+			<img src="js.png">
+			<h1>JS Summary</h1>
+			<p>
+				The Flexible Box Layout Model (flexbox) is a layout model designed for one-dimensional content.  <br> <a href="https://targeeseneh.github.io/week-1-js-assignment-1/">Read More</a>
+			</p>
+		</section>
+
+
+		<section class="first">
+			<img src="box-model-1.png">
+			<h1>Box Model</h1>
+			<p>
+				A simple counter app that add and subtract. It's build with HTML, CSS & JavaScript <br> <a href="https://targeeseneh.github.io/week-1-css-assignment/">Read More</a>
+			</p>
+		</section>
+	</div>
+
+<footer class="footer">
+		<h2>Get connected with me on social media</h2>
+		<nav>
+			<ul>
+				<li> <img src="facebook.png"></li>
+				<li> <img src="whatsapp.png"></li>
+				<li> <img src="twitter.png"></li>
+				<li> <img src="github.jpeg"></li>
+				<li> <img src="tiktok.png"></li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>

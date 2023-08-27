@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio-v-2-home-page</title>
+<style>
+
+header{
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+	padding: 20px;
+	
+}
+
+h1{
+	font-size: 45px;
+	margin-top: 30px;
+}
+
+ul{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+
+li{
+
+	padding: 25px;
+	list-style: none;
+
+}
+
+a{
+
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+
+}
+
+a:hover{
+	color: orangered;
+}
+
+#profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 55vh; 
+  background-color: black;
+}
+
+#text {
+
+  padding: 20px;
+}
+
+#text h1 {
+  color: orangered;
+  margin: 10px 0;
+}
+
+#text p {
+ 
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+#profile img{
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+}
+
+.about{
+	margin: 30px;
+	border: 2px solid white;
+}
+
+.about h1{
+	margin-top: 40px;
+	text-align:center;
+}
+.about p{
+	font-size: 20px;
+	margin: 30px;
+	padding: 30px;
+}
+
+.project {
+    text-align: center;
+}
+
+.project h1 {
+    margin-bottom: 20px;
+}
+
+.project button{
+	background-color: black;
+	border-radius: 10px;
+}
+
+
+.project button a{
+	color: white;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.first {
+	background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.first .content {
+    padding: 10px;
+    text-align: center;
+}
+
+
+.first img {
+	width: 500px;
+	height: 300px;
+   
+}
+.first a{
+	color: blue;
+}
+
+.footer{
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+	padding: 20px;
+	background-color: black;
+}
+.footer h2{
+	color: white;
+	margin-top: 30px;
+	margin-left: 30px;
+	padding-top: 20px;
+}
+
+.footer 
+ul{
+	display: flex;
+	justify-content: space-between;
+		
+}
+
+.footer img{
+	border-radius: 5px;
+	width: 38px;
+}
+
+
+</style>
+
+
+</head>
+<body>
+
+	<header>
+		<h1>CODE-WITH-TS</h1>
+		<nav>
+			<ul>
+				<li> <a href="blog.html">Blog</a></li>
+				<li> <a href="portfolio.html">Portfolio</a></li>
+				<li> <a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div id="profile">
+		<div id="text">
+			<h1>Welcome to Code-With-TS</h1>
+			<p>
+				WE CREATE, WE TEACH, WE INSPIRE..<br>Our goal is to bring the best out of young <br> Liberians for a better tomorrow.
+			</p>
+		</div>
+		<div>
+			<img src="image-10.jpeg">
+		</div>
+
+	</div>
+
+	<section class="about">
+		<h1>About Me</h1>
+		<p>
+
+			I was born through the union of Mr & Mrs <strong>Tanneh-Bartee Seneh</strong> in Ghana, on the 21 of November 2000. I Started my primary education at the <strong>LIBERIA DUJAR HIGH SCHOOL</strong>
+            where i remain until the complection of high schol.Coming up as a kid, I've always had the dream of becoming a programmer but never had the opportunity at the moment. Upon graduation, I enrooled at the <strong>LIBERIA DUJAR UNIVERSITY COLLEGE</strong> where I study Procurement for two semester and left because I had an opportunity to study my dream career
+            at the <strong>Kwagei Innovators Training</strong> where people with the vision of becoming a programmer are train to bring forth their dream of becoming a brillent programmer. <br> <br>
+		
+			Enrooling at KIT is the greatest thing that has happen to me. At KIT I have experience a huge love from both the instructors and students. Togetherness and unity is one thing that lives within the entire KIT family.KIT being a challenging institution that challange students and bring out the best in them, we have a good and quite learning enviroment, stable internet system and instructors that know their work to the best of their abality. KIT has a project base learning system that make you apply what you're learning in real life. You just need to be willing to put in your work.
+		</p>
+	</section>
+
+	<div class="project">
+		<h1>Latest Project</h1>
+
+		<div id="cards">
+
+		<section class="first">
+			<img src="dom.png">
+			<h1>DOM Manipulation</h1>
+			<p>
+				DOM is an acronym that stands for Document Object Model. It’s how a web browser represents a web page internally. <br> <a href="https://targeeseneh.github.io/dom-manipulation/">Read More</a>
+			</p>
+		</section>
+
+		<section class="first">
+			<img src="flexbox.png">
+			<h1>FlexBox</h1>
+			<p>
+				The Flexible Box Layout Model (flexbox) is a layout model designed for one-dimensional content.  <br> <a href="https://targeeseneh.github.io/Layout/">Read More</a>
+			</p>
+		</section>
+
+
+		<section class="first">
+			<img src="counter.png">
+			<h1>Counter App</h1>
+			<p>
+				A simple counter app that add and subtract. It's build with HTML, CSS & JavaScript <br> <a href="targeeseneh.github.io/counter/">Read More</a>
+			</p>
+		</section>
+	</div>
+
+	
+	<button><a href="portfolio.html">Read More</a></button>
+	</div>
+
+	<footer class="footer">
+		<h2>Get connected with me on social media</h2>
+		<nav>
+			<ul>
+				<li> <img src="facebook.png"></li>
+				<li> <img src="whatsapp.png"></li>
+				<li> <img src="twitter.png"></li>
+				<li> <img src="github.jpeg"></li>
+				<li> <img src="tiktok.png"></li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>
